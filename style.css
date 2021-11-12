@@ -18,6 +18,17 @@ a {
     justify-content: center;
 }
 
+.periodic-table-one {
+    display: grid;
+    grid-template-columns: repeat(9, 100px);
+    justify-content: center;
+    margin-top: 100px;
+    grid-gap: 10px;
+    max-width: 1200px;
+    grid-template-rows: repeat(4, 100px);
+
+}
+
 .periodic-element {
     padding: 4px;
     position: relative;
